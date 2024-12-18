@@ -1,0 +1,27 @@
+{
+	"name": "radiation-mastery-api",
+	"version": "1.0.0",
+	"description": "App to question about radiation",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tsx watch src/server.ts",
+		"build": "tsup src --out-dir build"
+	},
+	"dependencies": {
+		"@fastify/jwt": "^9.0.2",
+		"@prisma/client": "^6.1.0",
+		"@rocketseat/eslint-config": "^2.2.2",
+		"bcryptjs": "^2.4.3",
+		"fastify": "^5.2.0",
+		"zod": "^3.24.1"
+	},
+	"devDependencies": {
+		"@types/bcryptjs": "^2.4.6",
+		"@types/node": "^22.10.2",
+		"eslint": "^8.57.1",
+		"prisma": "^6.1.0",
+		"tsup": "^8.3.5",
+		"tsx": "^4.19.2",
+		"typescript": "^5.7.2"
+	}
+}
